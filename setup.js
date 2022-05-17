@@ -38,6 +38,8 @@ export default class RabbitMq {
 
     static async subscribe (){
 
+        // @TODO: refactor this again
+
         try {
             await this.connect();
             // assert queue: check is a queue exsit on the server else create in the process
